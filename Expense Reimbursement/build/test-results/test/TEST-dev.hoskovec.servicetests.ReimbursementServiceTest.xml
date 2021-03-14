@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.hoskovec.servicetests.ReimbursementServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-03-14T21:49:44" hostname="DESKTOP-01Q12UV" time="1.33">
+  <properties/>
+  <testcase name="get_all_requests_test()" classname="dev.hoskovec.servicetests.ReimbursementServiceTest" time="0.382"/>
+  <testcase name="get_request_by_Id_test()" classname="dev.hoskovec.servicetests.ReimbursementServiceTest" time="0.094"/>
+  <testcase name="create_request_test()" classname="dev.hoskovec.servicetests.ReimbursementServiceTest" time="0.113"/>
+  <testcase name="update_request_test()" classname="dev.hoskovec.servicetests.ReimbursementServiceTest" time="0.178"/>
+  <testcase name="delete_request_test()" classname="dev.hoskovec.servicetests.ReimbursementServiceTest" time="0.559"/>
+  <system-out><![CDATA[Hibernate: select reimbursem0_.request_id as request_1_2_, reimbursem0_.amount as amount2_2_, reimbursem0_.review_date as review_d3_2_, reimbursem0_.current_status as current_4_2_, reimbursem0_.employee_id as employee5_2_, reimbursem0_.reason as reason6_2_, reimbursem0_.reviewer_id as reviewer7_2_, reimbursem0_.review_reason as review_r8_2_, reimbursem0_.submit_date as submit_d9_2_ from reimbursement_request reimbursem0_
+Hibernate: select reimbursem0_.request_id as request_1_2_0_, reimbursem0_.amount as amount2_2_0_, reimbursem0_.review_date as review_d3_2_0_, reimbursem0_.current_status as current_4_2_0_, reimbursem0_.employee_id as employee5_2_0_, reimbursem0_.reason as reason6_2_0_, reimbursem0_.reviewer_id as reviewer7_2_0_, reimbursem0_.review_reason as review_r8_2_0_, reimbursem0_.submit_date as submit_d9_2_0_ from reimbursement_request reimbursem0_ where reimbursem0_.request_id=?
+Hibernate: insert into reimbursement_request (amount, review_date, current_status, employee_id, reason, reviewer_id, review_reason, submit_date) values (?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: select reimbursem0_.request_id as request_1_2_0_, reimbursem0_.amount as amount2_2_0_, reimbursem0_.review_date as review_d3_2_0_, reimbursem0_.current_status as current_4_2_0_, reimbursem0_.employee_id as employee5_2_0_, reimbursem0_.reason as reason6_2_0_, reimbursem0_.reviewer_id as reviewer7_2_0_, reimbursem0_.review_reason as review_r8_2_0_, reimbursem0_.submit_date as submit_d9_2_0_ from reimbursement_request reimbursem0_ where reimbursem0_.request_id=?
+Hibernate: update reimbursement_request set amount=?, review_date=?, current_status=?, employee_id=?, reason=?, reviewer_id=?, review_reason=?, submit_date=? where request_id=?
+Hibernate: select reimbursem0_.request_id as request_1_2_0_, reimbursem0_.amount as amount2_2_0_, reimbursem0_.review_date as review_d3_2_0_, reimbursem0_.current_status as current_4_2_0_, reimbursem0_.employee_id as employee5_2_0_, reimbursem0_.reason as reason6_2_0_, reimbursem0_.reviewer_id as reviewer7_2_0_, reimbursem0_.review_reason as review_r8_2_0_, reimbursem0_.submit_date as submit_d9_2_0_ from reimbursement_request reimbursem0_ where reimbursem0_.request_id=?
+Hibernate: select reimbursem0_.request_id as request_1_2_0_, reimbursem0_.amount as amount2_2_0_, reimbursem0_.review_date as review_d3_2_0_, reimbursem0_.current_status as current_4_2_0_, reimbursem0_.employee_id as employee5_2_0_, reimbursem0_.reason as reason6_2_0_, reimbursem0_.reviewer_id as reviewer7_2_0_, reimbursem0_.review_reason as review_r8_2_0_, reimbursem0_.submit_date as submit_d9_2_0_ from reimbursement_request reimbursem0_ where reimbursem0_.request_id=?
+Hibernate: delete from reimbursement_request where request_id=?
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
