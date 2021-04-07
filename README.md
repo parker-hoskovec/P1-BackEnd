@@ -2,7 +2,7 @@
 ***
 ## Project Description
 ***
-A RESTful web API for submitting requests as an employee and approving those requests as a manager.
+A RESTful web API powered by Hibernate and GCP databases.  This service can be used to submit reimbursment requests as an employee and review those requests as a manager.
 
 ## Technologies Used
 ***
@@ -29,6 +29,7 @@ To-do list:
 ***
 * Git Clone backend: https://github.com/parker-hoskovec/P1-BackEnd
 * Git Clone frontend: https://github.com/parker-hoskovec/P1-FrontEnd
+* <br />
 Set a environmental variable with the name CONN_DETAILS and the value jdbc:postgresql://35.192.67.100:5432/icaDB?user=parker&password=password then run the App.class file.
 Open the login page and use either JPalmer101 and secretPassword to view the employee page or JThunder404 and passwordNotFound to view the manager page.
 
