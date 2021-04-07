@@ -7,7 +7,7 @@ Javalin - 3.13.3
 Gson - 2.8.6
 Mockito - 3.7.7
 
-#Features
+# Features
 List of features ready and TODOs for future development
 
 Submit and view reimbursment requests
@@ -21,7 +21,7 @@ To-do list:
 Better layout for the front end
 Fix an issue with reimbursment status upon review.
 
-#Getting Started
+# Getting Started
 (include git clone command) (include all environment setup steps)
 
 Be sure to include BOTH Windows and Unix command
