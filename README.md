@@ -27,10 +27,10 @@ To-do list:
 
 ## Getting Started
 ***
-Download the code here and run the App.class file to launch the backend.
-Download the front end from https://github.com/parker-hoskovec/P1-FrontEnd
-Set a environmental variable with the name CONN_DETAILS and the value jdbc:postgresql://35.192.67.100:5432/icaDB?user=parker&password=password
-Open the login page and user either JPalmer101 and secretPassword to view the employee page or JThunder404 and passwordNotFound to view the manager page.
+* Git Clone backend: https://github.com/parker-hoskovec/P1-BackEnd
+* Git Clone frontend: https://github.com/parker-hoskovec/P1-FrontEnd
+Set a environmental variable with the name CONN_DETAILS and the value jdbc:postgresql://35.192.67.100:5432/icaDB?user=parker&password=password then run the App.class file.
+Open the login page and use either JPalmer101 and secretPassword to view the employee page or JThunder404 and passwordNotFound to view the manager page.
 
 ![image](https://user-images.githubusercontent.com/60248487/113929803-76582280-97be-11eb-838b-0b899668fcf5.png)
 ![image](https://user-images.githubusercontent.com/60248487/113929892-94258780-97be-11eb-9c05-2fda9cf8d261.png)
@@ -38,7 +38,3 @@ Open the login page and user either JPalmer101 and secretPassword to view the em
 ## Usage
 ***
 Once in you can add reimbursment requests by filling out the fields or review reimbursement requests if you are logged in as a manager.  Both employees and managers have ID's of 1 and 2 for use when submitting information.
-
-## License
-***
-This project uses the following license: <license_name>.
