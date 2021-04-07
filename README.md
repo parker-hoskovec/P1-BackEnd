@@ -6,6 +6,8 @@ A RESTful web API for submitting requests as an employee and approving those req
 Javalin - 3.13.3
 Gson - 2.8.6
 Mockito - 3.7.7
+Hibernate - 42.2.18
+JWT - 3.12.1
 
 # Features
 List of features ready and TODOs for future development
@@ -22,14 +24,16 @@ Better layout for the front end
 Fix an issue with reimbursment status upon review.
 
 # Getting Started
-(include git clone command) (include all environment setup steps)
 
-Be sure to include BOTH Windows and Unix command
-Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
+Download the code here and run the App.class file to launch the backend.
+Download the front end from https://github.com/parker-hoskovec/P1-FrontEnd
+Set a environmental variable with the name CONN_DETAILS and the value jdbc:postgresql://35.192.67.100:5432/icaDB?user=parker&password=password
+Open the login page and user either JPalmer101 and secretPassword to view the employee page or JThunder404 and passwordNotFound to view the manager page.
 
-All the code required to get started
-Images of what it should look like
-Usage
+![image](https://user-images.githubusercontent.com/60248487/113929803-76582280-97be-11eb-838b-0b899668fcf5.png)
+![image](https://user-images.githubusercontent.com/60248487/113929892-94258780-97be-11eb-9c05-2fda9cf8d261.png)
+
+# Usage
 Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
 
 License
